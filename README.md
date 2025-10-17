@@ -37,7 +37,7 @@
     <tr>
       <td><strong>Servlets & JSP</strong></td>
       <td>Web application basics</td>
-      <td>🚧 Coming soon...</td>
+      <td><a href="https://github.com/Ritesh-sharma-14/jdbc-learning-hub" target="_blank">Servlet & JSP</a></td>
     </tr>
     <tr>
       <td><strong>Spring Boot & hibernate</strong></td>
