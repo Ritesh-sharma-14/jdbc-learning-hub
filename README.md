@@ -40,7 +40,7 @@
       <td>🚧 Coming soon...</td>
     </tr>
     <tr>
-      <td><strong>Spring Boot</strong></td>
+      <td><strong>Spring Boot & hibernate</strong></td>
       <td>REST APIs and backend development</td>
       <td><a href="https://github.com/Ritesh-sharma-14/springboot-backend-journey" target="_blank">springboot-backend-journey</a></td>
     </tr>
