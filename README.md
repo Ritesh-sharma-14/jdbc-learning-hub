@@ -6,6 +6,6 @@ jdbc-learning-hub is a dedicated space within my Java Full Stack Journey  focuse
 | Module | Description | Repository Link |
 |--------|--------------|----------------|
 | Core Java | Basics of Java, OOP, and DSA | [View Folder](https://github.com/Ritesh-sharma-14/java-fullstack-journey) |
-| JDBC | Database Connectivity using Java and MySQL | [jdbc-learning-hub](https://github.com/yourusername/jdbc-learning-hub) |
+| JDBC | Database Connectivity using Java and MySQL | [jdbc-learning-hub](https://github.com/Ritesh-sharma-14/jdbc-learning-hub) |
 | Servlets & JSP | Web application basics | Coming soon... |
-| Spring Boot | REST APIs and backend development | Coming soon... |
+| Spring Boot | REST APIs and backend development | [Spring-SpringBoot].(https://github.com/Ritesh-sharma-14/springboot-backend-journey). |
