@@ -1,0 +1,10 @@
+@WebServlet("/CookieExample")
+  public class cookie Example extends Httpservlet{
+     @Override
+    protected void doGet(HttpServletRequest req,HttpServletResponse resp) throws IOException{
+        Cookie cookie = new cookie("user","Ritesh");
+        cookie.setMaxAge(60*60); //1 hour
+        resp.addCookie(Cookie);
+        resp.getwriter().println("Cookie added for user:Ritesh");
+      }
+   }
