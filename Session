@@ -1,0 +1,9 @@
+@WebServlet("/sessionExample")
+public class SessionExample extends HttpServlet{
+   @Override
+  protected void doget(HttpServletRequest req,HttpServletResponse resp) throws IOException{
+    HttpSession session = req.getSession();
+    session.setAtrribute("user","Ritesh");
+    resp.getWriter().println("Session set for user : Ritesh");
+  }
+}
