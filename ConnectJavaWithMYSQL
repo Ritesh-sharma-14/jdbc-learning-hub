@@ -1,0 +1,49 @@
+import java.sql.*;
+
+Public class JDBCExample{
+  public static void main(String[] args){
+     String url="jdbc:mysql://localhost:3306/testdb";
+     String user="root";
+     String pass="root";
+
+    try{
+      //step 1 :Local Driver 
+      class.forName("com.mysql.cj.jdbc.Driver");
+
+     //step 2 : Establish Connection
+     Connection con = DriverManager.getConnection(url,user,pass);
+
+     //step 3 : Create Statement
+     Statement stmt = con.createStatement();
+
+     //step 4 : Execute Query 
+     Result rs = stmt.executeQuery("SELECT * FROM employees");
+
+     //step 5 : Process Results
+    while(rs.next()){
+     System.out.println(rss.getInt("id")+" "+rs.getString("name"));
+   }
+
+    //step 6 : close 
+    rs.close();
+    stmt.close();
+    con.close();
+}catch(Exception e){
+  e.printStackTrace();
+  }
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
